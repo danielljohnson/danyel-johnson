@@ -1,0 +1,14 @@
+@media screen and (max-width: 768px) {
+  header {
+    padding: 12px;
+  }
+
+  header h1 {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  header ul {
+    display: none;
+  }
+}

@@ -1,0 +1,101 @@
+* {
+  font-family: "Forum", serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  border-bottom: 1px solid black;
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: white;
+}
+
+header h1 {
+  margin-left: 24px;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+}
+
+header ul.links li {
+  border-left: 1px solid black;
+}
+
+header ul.links li:last-child {
+  border-right: 1px solid black;
+}
+
+header ul.links a {
+  display: block;
+  padding: 24px 24px;
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+  transition: color 200ms ease-in-out, background-color 200ms ease-in-out;
+}
+
+header ul.links a:hover {
+  color: white;
+  background-color: black;
+  transition: color 200ms ease-in-out, background-color 200ms ease-in-out;
+}
+
+header ul.icons {
+  margin-right: 24px;
+  display: flex;
+  gap: 12px;
+}
+
+header ul.icons a {
+  color: black;
+}
+
+main {
+  padding: 24px;
+  background-image: url("../images/rb_87130.png");
+  filter: grayscale(100%);
+  background-repeat: no-repeat;
+  background-blend-mode: lighten;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+h2 {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+p.bio {
+  padding-bottom: 24px;
+}
+
+.panels {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+.panel {
+  background: white;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.center {
+  text-align: center;
+  margin-bottom: 24px;
+}
